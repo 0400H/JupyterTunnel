@@ -16,6 +16,8 @@ pip install git+https://github.com/0400H/JupyterTunnel.git
 
 ### How to use it
 
+Open jupyter [file](https://github.com/0400H/JupyterTunnel/blob/main/jupyter_tunnel.ipynb) from colab or follow those commands.
+
 1\. Start tunnel
 
 Start:
