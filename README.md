@@ -18,6 +18,8 @@ pip install git+https://github.com/0400H/JupyterTunnel.git
 
 1\. Start tunnel
 
+Start:
+
 ```
 from jupytertunnel import JupyterTunnel, Task
 
@@ -27,10 +29,12 @@ tunnel.init() # download cloudflared
 tunnel.start(port=12345) # your service port
 ```
 
-get url from output:
+Get URL from output:
 
 ```
+Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):
 
+https://xxxxxxxxxxxxxxxxxxx.trycloudflare.com
 ```
 
 2\. Start service
@@ -55,7 +59,11 @@ get url from output:
             break
     ```
 
-3\. Stop tunnel
+3\. Use tunnel via URL
+
+User can use this tunnel via `URL`.
+
+4\. Stop tunnel
 
 ```
 tunnel.stop()
